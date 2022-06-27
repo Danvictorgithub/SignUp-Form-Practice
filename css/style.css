@@ -2,7 +2,7 @@
     font-family: monospace;
     box-sizing: border-box;
     padding:2vh 4vw 2vh 4vw;
-    
+    color:#28282B;
 }
 .main-container {
     display: flex;
@@ -47,6 +47,7 @@
     padding:4vh;
 }
 .form-container div:nth-child(2) {
+    padding:2vh 4vh 4vh 4vh;
     background-color: white;
     filter: drop-shadow(-3px 3px 3px rgb(87, 87, 87));
 }
@@ -55,7 +56,7 @@
     font-weight: bolder;
     letter-spacing: 1px;
     line-height: 20px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .sign-up-form {
     height: 100vh;
@@ -66,8 +67,9 @@ button {
     border:none;
     color:white;
     height: 6vh;
-    width: 12vw;
+    width: 14vw;
     font-weight: bolder;
+    border-radius: 10px;
 }
 .log {
     font-weight: bold;
