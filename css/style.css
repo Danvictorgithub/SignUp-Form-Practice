@@ -42,15 +42,11 @@
 .form-container > * {
     height: 75%;
 }
-.form-container div:nth-child(odd) {
+.form-container div.def{
     background-color: #F9FAFB;
     padding:4vh;
 }
-.form-container div:nth-child(2) {
-    padding:2vh 4vh 4vh 4vh;
-    background-color: white;
-    filter: drop-shadow(-3px 3px 3px rgb(87, 87, 87));
-}
+
 .txt {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -60,6 +56,15 @@
 }
 .sign-up-form {
     height: 100vh;
+    padding:2vh 4vh 4vh 4vh;
+    background-color: white;
+    filter: drop-shadow(-3px 3px 3px rgb(87, 87, 87));
+}
+.sign-up-form p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: bolder;
 }
 
 button {
@@ -71,10 +76,36 @@ button {
     font-weight: bolder;
     border-radius: 10px;
 }
+button:hover, button:focus {
+    background-color: lightgreen;
+}
 .log {
     font-weight: bold;
 }
 a {
     text-decoration: none;
     color: #112E2A;
+}
+label {
+    font-size: 1.1rem;
+    display: block;
+    font-weight: bolder;
+    color: #112E2A;   
+}
+
+form {
+    display: flex;
+    height: 80%;
+}
+form > * {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input {
+    border:2px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    height:2.7vh;
+    width:15vw;
 }
